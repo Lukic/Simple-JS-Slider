@@ -11,6 +11,33 @@ section{
     border: 4px solid #333;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+}
+
+#nextBtn{
+    position: absolute;
+    top:50%;
+    right:10px;
+    z-index: 99;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#prevBtn{
+    position: absolute;
+    top:50%;
+    left:10px;
+    z-index: 99;
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#nextBtn:hover, #prevBtn:hover{
+    opacity: 1;
 }
 
 #slider{
@@ -27,13 +54,12 @@ section{
 
 
 .slideItem h3{
+    width: 100%;
+    line-height: 30px;
     position: absolute;
-    bottom: 10px;
-    left:10px;
     color: #fff;
+    bottom: 0;
     background-color: #333;
-    font-size: 15px;
+    font-size: 13px;
     padding: 10px;
-    border:2px solid #fff;
-    border-radius: 10px;
 }
