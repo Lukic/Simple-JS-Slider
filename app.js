@@ -22,7 +22,6 @@ prevBtn.addEventListener("click", ()=>{
     slideContainer.style.transform = "translateX("+(-sliderWidth * positionCounter) +"px)";
 });
 
-
 slideContainer.addEventListener("transitionend",()=>{
     if(slideItems[positionCounter].dataset.temp ==="last"){
         slideContainer.style.transition = "none";
