@@ -4,19 +4,27 @@
     box-sizing: border-box;
 }
 
-#slider{
+section{
     width: 600px;
     height: 400px;
     margin: auto;
-    overflow: hidden;
     border: 4px solid #333;
     border-radius: 10px;
+    overflow: hidden;
+}
+
+#slider{
     display: flex;
+    width:100%;
+    height: 400px;
 }
 
 .slideItem{
+    width:600px;
+    height:400px;
     position: relative;
 }
+
 
 .slideItem h3{
     position: absolute;

@@ -8,38 +8,40 @@
 </head>
 <body>
 
+
 <h1>Simpel JavaScript Slider</h1>
-<section id="slider">
-    <div class="slideItem"> 
-        <img src="https://loremflickr.com/600/400/car?lock=4" id="lastTemp" alt="" />
-        <h3>Beskrivelse 4</h3>
-    </div>
-    <div class="slideItem"> 
-        <img src="https://loremflickr.com/600/400/car?lock=1" alt="" />
-        <h3>Beskrivelse 1</h3>
-    </div>
-    <div class="slideItem"> 
-        <img src="https://loremflickr.com/600/400/car?lock=2" alt="" />
-        <h3>Beskrivelse 2</h3>
-    </div>
-    <div class="slideItem"> 
-        <img src="https://loremflickr.com/600/400/car?lock=3" alt="" />
-        <h3>Beskrivelse 3</h3>
-    </div>
-    <div class="slideItem"> 
-        <img src="https://loremflickr.com/600/400/car?lock=4" alt="" />
-        <h3>Beskrivelse 4</h3>
-    </div>
-    <div class="slideItem"> 
-        <img src="https://loremflickr.com/600/400/car?lock=1" id="firstTemp" alt="" />
-        <h3>Beskrivelse 1</h3>
+<section>
+    <div id="slider">    
+        <div class="slideItem" data-temp="last"> 
+            <img src="https://loremflickr.com/600/400/car?lock=4" alt="" />
+            <h3>Beskrivelse 4</h3>
+        </div>
+        <div class="slideItem"> 
+            <img src="https://loremflickr.com/600/400/car?lock=1" alt="" />
+            <h3>Beskrivelse 1</h3>
+        </div>
+        <div class="slideItem"> 
+            <img src="https://loremflickr.com/600/400/car?lock=2" alt="" />
+            <h3>Beskrivelse 2</h3>
+        </div>
+        <div class="slideItem"> 
+            <img src="https://loremflickr.com/600/400/car?lock=3" alt="" />
+            <h3>Beskrivelse 3</h3>
+        </div>
+        <div class="slideItem"> 
+            <img src="https://loremflickr.com/600/400/car?lock=4" alt="" />
+            <h3>Beskrivelse 4</h3>
+        </div>
+        <div class="slideItem" data-temp="first"> 
+            <img src="https://loremflickr.com/600/400/car?lock=1" id="firstTemp" alt="" />
+            <h3>Beskrivelse 1</h3>
+        </div>
     </div>
 </section>
 
 <button id="prevBtn">Tilbage</button>
 <button id="nextBtn">Frem</button>
 
-
-    <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
