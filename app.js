@@ -1,10 +1,10 @@
 const slideContainer = document.querySelector("#slider");
 const slideItems = document.querySelectorAll(".slideItem");
-let positionCounter = 1;
 const prevBtn = document.querySelector("#prevBtn");
 const nextBtn = document.querySelector("#nextBtn");
-
 const sliderWidth = 600;
+
+let positionCounter = 1;
 
 slideContainer.style.transform = "translateX("+(-sliderWidth * positionCounter) +"px)";
 
